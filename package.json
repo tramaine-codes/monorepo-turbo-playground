@@ -7,24 +7,24 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@commitlint/cli": "19.3.0",
+    "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@typescript-eslint/eslint-plugin": "7.13.1",
-    "@typescript-eslint/parser": "7.13.1",
-    "@vitest/coverage-v8": "1.6.0",
+    "@typescript-eslint/eslint-plugin": "8.1.0",
+    "@typescript-eslint/parser": "8.1.0",
+    "@vitest/coverage-v8": "2.0.5",
     "del-cli": "5.1.0",
     "eslint": "8.57.0",
-    "husky": "9.0.11",
-    "lint-staged": "15.2.7",
-    "prettier": "3.3.2",
+    "husky": "9.1.4",
+    "lint-staged": "15.2.9",
+    "prettier": "3.3.3",
     "testdouble": "3.20.2",
     "tsconfig": "*",
-    "turbo": "2.0.4",
-    "typescript": "5.5.2",
-    "vitest": "1.6.0"
+    "turbo": "2.0.14",
+    "typescript": "5.5.4",
+    "vitest": "2.0.5"
   },
   "name": "monorepo-turbo-playground",
-  "packageManager": "npm@9.8.1",
+  "packageManager": "npm@10.8.2",
   "workspaces": [
     "apps/*",
     "packages/*"
